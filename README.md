@@ -6,6 +6,9 @@ An automated tool library for parsing Android platform trace files.
 - Change PACKAGE_NAME_LIST in Main.java, Filter the package name information you are interested in, otherwise, no method call records will be filtered
 - Build -> Build Artifacts, generate a jar file, please refer to the configuration process for generating the jar file on your own
 
+![Image text](https://github.com/SEUCalvin/TraceHandler/blob/main/fun.jpg)
+
+
 ## Function1: Merge the function sets from multiple trace files to generate a combined file.
 ```
 java -jar trace-handler.jar 2 set-output.txt trace1.trace trace2.trace trace3.trace ...
